@@ -1,0 +1,157 @@
+<!--Trabalho do Portal - Vinícius Henrique Giovanini - 692225-->
+
+<!DOCTYPE html>
+
+
+
+<html lang="pt-br">
+
+<head>
+    <div class="container">
+        <div c;ass>
+            <title> Portal de Notícias </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+                integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+                crossorigin="anonymous">
+            <link rel="stylesheet" href="estilos.css">
+            <meta charset="UTF-8">
+
+
+</head>
+
+<body onload="destaque()">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <img src="imgs/imagem1.png" width="100px">
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="bar">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="#">Navbar</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">News</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="">Contato</a>
+                                    </li>
+                                </ul>
+
+                                <input id="txtPesquisa" type="text" placeholder="Search">
+                                <button id="btnPesquisa">Pesquisar</button>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <section class="main row">
+            <div class="col-md-8">
+                <div id="tela">
+                    <div class="box-noticia">
+                        <img src="https://source.unsplash.com/random/120x80" alt="">
+                        <span class="titulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span><br>
+                        <span class="creditos">01/05/2020 - BBC News - Fulano de Tal</span><br>
+                        <span class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque qui necessitatibus
+                            eos
+                            quis officia sunt consequatur similique quibusdam eveniet repellat magni dolor dolore,
+                            laborum
+                            ad accusantium minus soluta at?
+                            <a href="#">Leia mais ...</a>
+                    </div>
+
+                    <div class="box-noticia">
+                        <img src="https://source.unsplash.com/random/120x80" alt="">
+                        <span class="titulo">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.</span><br>
+                        <span class="creditos">01/05/2020 - BBC News - Fulano de Tal</span><br>
+                        <span class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque qui
+                            necessitatibus eos quis officia sunt consequatur similique quibusdam eveniet
+                            repellat
+                            magni dolor dolore, laborum ad accusantium minus soluta at?
+                            <a href="#">Leia mais ...</a>
+                        </span>
+                    </div>
+
+
+                    <div class="box-noticia">
+                        <img src="https://source.unsplash.com/random/120x80" alt="">
+                        <span class="titulo">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.</span><br>
+                        <span class="creditos">01/05/2020 - BBC News - Fulano de Tal</span><br>
+                        <span class="text" >
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque qui
+                            necessitatibus eos quis officia sunt consequatur similique quibusdam eveniet
+                            repellat
+                            magni dolor dolore, laborum ad accusantium minus soluta at?
+                            <a href="#"; >Leia mais ...</a>
+                        </span>
+                    </div>
+                    </span>
+
+                </div>
+            </div>
+            <aside class="col-md-4">
+                <div class="roberson">
+                    <p>
+                    <h3>Categorias</h3>
+                    </p>
+
+                    <p onclick="esportes()">
+                        <img src="imgs/esportes-ingles-1200x675.jpg">
+                    </p>
+                    <p onclick="games()">
+                        <img src="imgs/entretenimento-2.jpg">
+                    </p>
+                    <p onclick="saude()">
+                        <img src="imgs/saudeimg.png">
+                    </p>
+                    <p onclick="tech()">
+                        <img src="imgs/techimgs.jpg " >
+                    </p>
+
+                </div>
+            </aside>
+        </section>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+        <script src="app.js"></script>
+
+</body>
+
+</hmtl>
