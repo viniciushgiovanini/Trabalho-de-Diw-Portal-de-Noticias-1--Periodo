@@ -1,3 +1,0 @@
-A porta para acessar esse site esta setada para 5001 (localhost )
-
-http://localhost:5501/
