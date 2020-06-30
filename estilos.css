@@ -1,0 +1,85 @@
+.header {background-image: url(imagens/bannertopodositeoficial.png);
+    background-size: cover;
+    background-position: 0px -700px;
+    color: white;
+    padding: 20px;
+    
+}
+
+.menu1 {
+    margin-bottom: 30px;     
+    }
+
+.video {margin-bottom: 50px;}
+
+
+.logo {max-width: 100px} 
+
+
+.banner img {max-width: 100%;}
+
+.banner {margin: 0px;}
+
+.cards1 img {max-width: 100%;}
+
+.cards2 img {max-width: 100%;}
+
+
+.textosemiprincipal {max-width: 100%; margin: 0px; margin-bottom: 20px; margin-top: 20px; padding: 20px;}
+
+.texto_principal {max-width: 100%; margin: 0px;}
+
+.infos {margin: 0px;}
+
+.infos h1 {font-size: 1.4em;}
+
+.grid_color1 {background-color: #fae5c6; min-height: 560px; padding: 20px;}
+
+.footer {background-image: url(imagens/awpbannerpronto.png);
+    background-size: cover;
+    background-position: 0px -380px;
+    color: white;
+    padding: 20px;
+}
+
+.minicardum { max-width: 100%; padding: 10px;}
+
+.minicarddois {max-width: 100%; padding: 10px; margin-left: 9px; margin-bottom: -10px; }
+
+.carddebaixo {padding: 10px; margin: 0px}
+
+.card-body {  padding: 10px;}
+
+.card-mini { margin-bottom: 30px;}
+
+.card-text-domini { margin-left: 19px; background-color: #b6b3b3; padding: 5px;}
+
+.card-text-principal { margin-left: 10px;}
+
+.card-title-principal { margin-left: 10px; background-color: cornsilk; padding: 5px; text-align: center;}
+
+.card-text-pain { background-color: #b6b3b3; margin-top: -10px; padding: 22px; margin-left: -10px; margin-right: -10px;}
+
+.card-text-esl { background-color: #b6b3b3; margin-top: -10px; padding: 10px; margin-left: -10px; margin-right: -10px;}
+
+.card-text-exercito { background-color: #b6b3b3; margin-top: -10px; padding: 22px; margin-left: -10px; margin-right: -10px;}
+
+.card-text-zakk { background-color: #b6b3b3; margin-top: -10px; padding: 10px; margin-left: -10px; margin-right: -10px;}
+
+.card-text-zews {background-color: #b6b3b3; padding: 13px;}
+
+.card-text-sg {background-color: #b6b3b3;padding: 13px;}
+
+.card-text-dell {background-color: #b6b3b3;padding: 11px;}
+
+.card-text-flash {margin-left: 19px; background-color: #b6b3b3; padding: 31px;}
+
+.card-text-niko {margin-left: 19px; background-color: #b6b3b3; padding: 9px;}
+
+
+
+
+
+
+
+
